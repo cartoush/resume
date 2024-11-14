@@ -66,9 +66,54 @@ education:
         details: |
           Year abroad in the context of Epitech
 
+publications:
+    title: Publications
+    papers:
+        - title: Enabling Extremely Energy-Efficient End-to-End Secure Communications for Smart Metering Internet of Things Applications Using Static Context Header Compression
+          link: https://www.mdpi.com/2076-3417/13/21/11921
+
+oss:
+    title: Open source
+    intro: Some of the software I have worked is open-source or has been open-sourced.
+    contributions:
+        - title: lab.SCHC SDK
+          link: https://gitlab.com/lab-schc/sdk/full-sdk
+          tagline: The SCHC library I worked on during my time in Acklio, it has been open-sourced after I left.
+        - title: Varnish Cache
+          link: https://github.com/varnishcache/varnish-cache
+          tagline: I have been contributing to Varnish Cache as an employee of Varnish Software.
+
 experiences:
     title: Experiences
     info:
+      - role: R&D Engineer
+        time: 2024 - 2025
+        company: Varnish Software (Oslo, Norway)
+        details: |
+
+          - Development on Varnish Cache and Varnish Cache Enterprise
+          - Implementation of the CONNECT HTTP method
+          - Implementation of a CBOR API
+          - Implementation of a Linux jail
+          - Implementation of a library to create Varnish backends from a configuration file produced by varnish-discovery
+
+          *Technologies used*
+
+          - Varnish
+          - Github
+          - Confluence
+          - CBOR
+          - CircleCI
+
+          *Languages used*
+          - C
+          - Shell
+          - VTC
+          - VCL
+
+          *Platforms used*
+          - Linux
+
       - role: R&D Engineer
         time: 2023 - 2024
         company: Actility (Sophia-Antipolis, France)
